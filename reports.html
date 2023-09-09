@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liver Disease Prediction</title>
+    <link rel="stylesheet" href="reports.css">
+</head>
+
+<body>
+    <header>
+        <h1>TEST REPORTS</h1>
+    </header>
+    <div class="container">
+        <div class="form">
+
+            </select>
+            <label for="total_bilirubin">Total Bilirubin (mg/dL):</label>
+            <input type="number" id="total_bilirubin" placeholder="Enter total bilirubin" required>
+
+            <label for="alkaline_phosphate">Alkaline Phosphate (U/L):</label>
+            <input type="number" id="alkaline_phosphate" placeholder="Enter alkaline phosphate" required>
+
+            <label for="alanine_aminotransferase">Alanine Aminotransferase (U/L):</label>
+            <input type="number" id="alanine_aminotransferase" placeholder="Enter alanine aminotransferase" required>
+
+            <label for="total_proteins">Total Proteins (g/dL):</label>
+            <input type="number" id="total_proteins" placeholder="Enter total proteins" required>
+
+            <label for="albumin">Albumin (g/dL):</label>
+            <input type="number" id="albumin" placeholder="Enter albumin" required>
+
+            <label for="globulin_ratio">Globulin Ratio:</label>
+            <input type="number" id="globulin_ratio" placeholder="Enter globulin ratio" required>
+
+            <button id="predictButton">Predict</button>
+            <button id="next1">suggestions page</button>
+
+
+
+
+
+        </div>
+
+        <div class="result">
+            <h2>Prediction Result:</h2>
+            <p id="prediction"></p>
+        </div>
+    </div>
+
+    <script src="reports.js"></script>
+</body>
+
+</html>
